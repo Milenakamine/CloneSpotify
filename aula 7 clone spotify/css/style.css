@@ -1,0 +1,173 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* box-sizing: border-box; */
+}
+.topo{
+    width: 100%;
+    height: 80px;
+    background-color: #1c1c1c;
+}
+.flex{
+    display: flex;
+}
+.centraliza_v{
+    align-items: center;
+}
+.container{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+.topo img{
+    width: 132px;
+    height: 41,89px;
+    
+}
+.menu_topo{
+    width: 100%;
+    height: 100%;
+}
+.menu_topo ul{
+    height: 100%;
+    justify-content: flex-end;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    
+}
+.menu_topo a{
+    text-decoration: none;
+    color: white;
+    padding: 28px 17px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    width: 100%;
+    
+}
+.container_banner{
+    width: 100%;
+    height: 550px;
+    background-color: rgb(25, 230, 140);
+    margin-bottom: 50px;
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-bottom: 50px;
+    
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:black;
+    
+}
+.banner{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    
+}
+.bannertexto a{
+    text-decoration:underline;
+    list-style-type:none;
+    color: white;
+}
+
+.apps{
+    background-color: white;
+    width: 100%;
+    height: 300px;
+}
+.containersection{
+    align-items: center;
+    
+}
+
+.containersection h1{ color: black;
+    font-size: 34px;
+    
+}
+
+.containersection h3{
+    font-size: 16px;
+    margin-bottom: 40px
+}
+.meio{
+    margin-left: 39%;
+    margin-bottom: 70px;
+}
+.meio img{
+    padding: 9px;
+}
+
+.socorro{
+    background-color: rgb(34, 35, 38);
+    width: 100%;
+    height: 417px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+   align-items: center;
+   margin-bottom: 50px;
+}
+.socorro img{
+    width:1200px;
+    height: 173px;
+    
+    
+    
+}
+.socorro h1 {
+    font-size: 32px;
+    
+}
+
+.lado{
+    display: flex;
+    margin-left: 40px;
+    
+}
+
+.lado h2{
+    display: flex;
+    color:green;
+    font-size: 20px;
+}
+.lado h3{
+    display: flex;
+    font-size: 20px;
+    color: green;
+    
+}
+.lado a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-transform: uppercase;
+    
+}
+.lado h3 a{
+    color: green;
+}
+
+.rodape{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.foto img{
+    
+    width: 132px;
+    height: 41,89px;
+}
